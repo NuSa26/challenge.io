@@ -1,0 +1,90 @@
+*{
+    background: pink;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.cute{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left:80px;
+}
+
+.texto{
+    border: none;
+    color: #04a387;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: black;}
+    .texto:focus{
+        outline: none;
+    }
+
+.mensaje{ 
+    background: aquamarine;
+    background-image: url(./imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.boton{
+    display: flex;
+    margin-top: 10px;
+}
+
+.desn{
+    background: white;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: orange;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.encri{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid orange;
+    border-radius: 24px;
+    color: azure;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.info{
+    color: black;
+    font-size: 18px;
+}
